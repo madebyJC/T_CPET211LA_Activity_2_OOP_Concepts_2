@@ -60,7 +60,8 @@ int main() {
     BankAccount transact(accountNum, 0);
 
     std::cout << "Welcome to your account!" << std::endl;
-    std::cout << "What would you like to do? (1) Deposit, (2) Withdraw, (3) Check Balance (Input the number)" << std::endl;
+    std::cout << "What would you like to do? (1) Deposit, (2) Withdraw, (3) Check Balance (Input the number):" << std::endl;
+    std::cin >> choice;
     switch (choice){
         case 1:
             std::cout << "Enter the amount you would like to deposit: " << std::endl;
